@@ -3,7 +3,15 @@
 > There's an article I'm preparing that's getting to grips with moving from ECSS to GPS, but it's not a silver bullet.
 > I'm developing Thema styles as a naming convention that's "prettier" than ECSS and BEM but useful to isolate styles.
 
-Wherever possible we should be styling RAW Html as a priority (such as forms), getting our `specimen.html` file ready, a `.gl-`obal design-system, but adding to that only when necessary. We have a `#page` ID with repeatable `.snake-case` CSS names or a `#section` that's unique to that page (or view). Our `.snake-case` or `#section` CSS can move up the hierarchy if it turns out we'd like to use it on another page — it can graduate to our `.gl-`obal design-system.
+Wherever possible we should be:
+
+- Styling RAW Html as a priority (such as forms)
+- Getting our `specimen.html` file ready
+- A `.gl-`obal design-system, adding only what's necessary
+- A `#page` ID with repeatable `.snake-case` CSS names
+    - A `#section` unique to that page (or view)
+
+Our `.snake-case` or `#section` CSS can move up the hierarchy if it turns out we'd like to use it on another page — it can graduate to our `.gl-`obal design-system. The idea with Thema is to allow us to have flat-style CSS (not nested too deeply) yet descriptive names.
 
 CSS shouldn't be nested more than 3 levels deep (unless short, such as `p` or `a`) and a few other rules.
 
