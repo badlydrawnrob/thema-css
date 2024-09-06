@@ -22,17 +22,17 @@ An example:
     </ul>
   </nav>
   <section id="dashboard">
-	  <div class="dash-visuals"> <!-- Scoped to `#section` name -->
+    <div class="dash-visuals"> <!-- Scoped to `#section` name -->
       <!-- You "chop off" the first letter of it's parent -->
       <aside class="dash-v-controls"> <!-- Chop off to get `-visuals` -->
         <form class="dash-vc-settings"> <!-- .v. `-controls-` -->
-		      <div class="dash-vcs-wrapper"> <!-- .vc. `-settings` --> 
-    	  	  <label class="dash-vcs-search"> <!-- .vcs. `-search` -->
-			      <div class="dash-vcs-search-box"> <!-- and so on -->
-			        <label>Search for data</label>
-			        <input type="search">
-			      </div>
-		      </div>
+          <div class="dash-vcs-wrapper"> <!-- .vc. `-settings` --> 
+            <label class="dash-vcs-search"> <!-- .vcs. `-search` -->
+            <div class="dash-vcs-search-box"> <!-- and so on -->
+              <label>Search for data</label>
+              <input type="search">
+            </div>
+          </div>
         </form>   <!-- /end .dash-vc-settings -->
       </aside>    <!-- /end .dash-v-controls -->
     </div>        <!-- /end .dash-visuals -->
@@ -41,5 +41,4 @@ An example:
     ...
   </footer>
 </main>
-
 ```
