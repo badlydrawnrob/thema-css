@@ -52,6 +52,15 @@ An example:
 </main>
 ```
 
+## Research questions
+
+1. How do I integrate these styles when using [frameworks](https://picocss.com/)?
+2. How can Ai guide and help me creating CSS (and it's rules)?
+3. How can we speed up writing CSS and maintain order (with Thema rules)?
+4. How can we utilise tools for _avoiding_ writing CSS wherever possible?[^1]   
+
 ## Inspiration
 
 Besides ECSS, GPS, and Thema I've loosely borrowed ideas from [`@mdo`](http://codeguide.co/) and [Google's](https://google.github.io/styleguide/htmlcssguide.html) code guide for orderly code.
+
+[^1]: Such as Ai, tooling, ux guis, and so on. These are all great and useful (in the future will we even write CSS?) but I'd advise having at the very least a cursory knowledge of CSS before leaning on these; even if it's just Markdown level knowledge (typography, colours, basic elements). Without it, you may be lost if something goes wrong, and bugs are a guarantee when styling websites!
