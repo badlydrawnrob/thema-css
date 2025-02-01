@@ -1,7 +1,8 @@
 # Thema CSS
 
-> There's an article I'm preparing that's getting to grips with moving from ECSS to GPS, but it's not a silver bullet.
-> I'm developing Thema styles as a naming convention that's "prettier" than ECSS and BEM but useful to isolate styles.
+> **See [Thema](https://ns.editeur.org/thema/en/Y) examples for inspiration.**
+> Write an article blending [`GPS`](https://github.com/jescalan/gps), my own `Thema` styles, and (some) learning points from [`ECSS`](https://github.com/badlydrawnrob/ecss)
+> It's not a silver bullet. Make hard decisions for "pretty" and [reliable rules](https://medium.com/@jescalan/bem-is-terrible-f421495d093a). Isolate and flatten.
 
 Wherever possible we should be:
 
@@ -50,3 +51,7 @@ An example:
   </footer>
 </main>
 ```
+
+## Inspiration
+
+Besides ECSS, GPS, and Thema I've loosely borrowed ideas from [`@mdo`](http://codeguide.co/) and [Google's](https://google.github.io/styleguide/htmlcssguide.html) code guide for orderly code.
